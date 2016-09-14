@@ -1,0 +1,27 @@
+div#container{
+  width:900px;
+  background-color:aliceblue;
+    padding:20px;
+}
+#container ul {
+    display:table;
+    width: 100%;
+    margin:0 0;
+}
+#container ul li {
+    display:table-cell;
+    height:15px;
+    line-height:auto;
+    font-size:20px;    
+    padding: 2px;
+    text-align: center;
+    background-color:peachpuff;
+    border-right:2px solid #fff;
+}
+#container ul li:first-child {
+    border-radius:10px 0 0 10px;
+}
+#container ul li:last-child {
+    border-radius:0 10px 10px 0;
+    border-right:0 none;
+}
