@@ -1,0 +1,59 @@
+head {
+    background-color: white
+}
+
+body {
+    background-color: aliceblue;
+    color: black;
+    font-family: helvetica;
+    
+}
+
+h1 {
+    font-family: verdana;
+    margin-left: 130 px;
+}
+
+p{
+    text-indent: 50px;
+    font-family: sans-serif;
+    line-height: normal;
+    margin-left: 115 px;
+}
+
+.addresses {
+	width: 20px;
+	height: 20px;
+    line-height: 2em
+        
+}
+.pitbull_aside {
+    font-style:italic;
+	float:right;width:20%;
+	border:2px "solid";
+    background-color: lightblue;
+    border-color: black;
+}
+.abs {
+    font-size: 2.5ex;
+    line-height: 2m
+}
+table {
+    border-collapse: collapse;
+}
+.adt table,th,td{
+    border: 1px solid;
+    border-color: black;
+    padding: 2px;
+}
+
+th,td.borderless {
+    border: none;
+}
+.ball {
+    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+    border-color: greenyellow;
+    background-color: greenyellow;
+}
